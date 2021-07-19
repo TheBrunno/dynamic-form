@@ -1,4 +1,30 @@
 .display{
+  margin-top: 150px;
   width: 400px;
   height: 230px;
+  text-align: center;
+}
+.circle{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background-image:linear-gradient(to bottom right, var(--blue), var(--green));
+  text-align: center;
+  padding-top: 10px;
+  margin: 40px auto 20px auto;
+}
+.display span{
+  display: block;
+}
+.display span:first-child{
+  margin: -35px 0 0 0;
+  color: #fff;
+}
+#name-display{
+  color: var(--blue);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#email-display{
+  color:var(--green);
 }
