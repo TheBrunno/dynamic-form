@@ -1,0 +1,12 @@
+:root{
+  --green: #34DFBB;
+  --blue: #46B2F4;
+}
+*{
+  outline: none;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  color: var(--blue);
+}

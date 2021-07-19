@@ -1,0 +1,40 @@
+.input{
+  height: 400px;
+  padding: 15px;
+}
+.input .input-camps > label{
+  position: relative;
+  left: 15px;
+  top: 13px;
+  background-color: #fff;
+  padding: 0 10px;
+  color: var(--blue)
+}
+.input .input-camps > input{
+  display: block;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  border: var(--blue) 2px solid;
+  background-color: inherit;
+}
+.input input[type="button"]{
+  display: block;
+  border: none;
+  background-color: #29de9a;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight:700;
+  width: 200px;
+  margin: 30px auto;
+  border-radius: 50px;
+  transition: .2s;
+}
+.input input[type="button"]:hover{
+  background-color: #25C287;
+  width: 220px;
+}
+.input form p{
+  text-align: center;
+}
